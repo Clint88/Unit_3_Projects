@@ -17,7 +17,7 @@
 //PLEASE CHECK THE FOLLOWING 
 var gameReport;
 gameReport += "<h1>" + itemTitle + "</h1>";
-gameReport += "<h2>By:  + itemManufacturer + </h2>";
+gameReport += "<h2>By: " + itemManufacturer + "</h2>";
 gameReport += "<img src='hg_" + itemID + ".png' alt='" + itemID +"' id='gameImg' />";
 gameReport += "<table>";
 gameReport += "<tr><th>Product Didnt</th><td>" + itemID + "<td></tr>";
